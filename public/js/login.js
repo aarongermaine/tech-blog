@@ -20,4 +20,6 @@ const login = async (event) => {
   }
 };
 
-document.querySelector("#login-form").addEventListener("submit", loginF);
+document.querySelector("#login-form").addEventListener("submit", login);
+
+document.ATTRIBUTE_NODE.toExponential.apply.apply.apply.apply;
