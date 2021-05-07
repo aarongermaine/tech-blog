@@ -1,0 +1,17 @@
+<div class="post">
+    {{#each posts}}
+
+    <div class="body">
+        <h2>
+            <a href="/posts/{{id}}">{{title}}</a>
+        </h2>
+        <div>
+            by {{User.username}} on {{format_date createdAt}}
+        </div>
+    </div>
+    <div class="body">
+        {{body}}
+    </div>
+
+    {{/each}}
+</div>
