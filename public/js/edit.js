@@ -16,7 +16,7 @@ const edit = async (event) => {
     },
   });
 
-  document.location.replace("/dashboard");
+  document.location.replace("/dash");
 };
 
 const deletePost = async () => {
@@ -24,8 +24,8 @@ const deletePost = async () => {
     method: "DELETE",
   });
 
-  document.location.replace("/dashboard");
+  document.location.replace("/dash");
 };
 
-document.querySelector("#edit-post-form").addEventListener("submit", edit);
+document.querySelector("#edit-post").addEventListener("submit", edit);
 document.querySelector("#delete-btn").addEventListener("click", deletePost);

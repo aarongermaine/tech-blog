@@ -13,7 +13,7 @@ const newPost = async (event) => {
     headers: { "Content-Type": "application/json" },
   });
 
-  document.location.replace("/dashboard");
+  document.location.replace("/dash");
 };
 
 document.querySelector("#new-post-form").addEventListener("submit", newPost);
