@@ -16,7 +16,7 @@ router.get("/", withAuth, async (req, res) => {
       })
     );
 
-    res.render("all-posts-admin", {
+    res.render("all-posts-main", {
       layout: "dash",
       posts,
     });
@@ -40,7 +40,7 @@ router.get("/edit/:id", withAuth, async (req, res) => {
         plain: true,
       });
 
-      res.render("edit-post", {
+      res.render("edit", {
         layout: "dash",
         post,
       });

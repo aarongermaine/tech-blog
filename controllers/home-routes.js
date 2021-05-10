@@ -38,7 +38,7 @@ router.get("/post/:id", async (req, res) => {
         plain: true,
       });
 
-      res.render("single-post", {
+      res.render("post", {
         post,
       });
     } else {

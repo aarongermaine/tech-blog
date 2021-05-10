@@ -1,7 +1,7 @@
 const username = document.querySelector("#username-input-login");
 const password = document.querySelector("#password-input-login");
 
-const login = async (event) => {
+const login = async function (event) {
   event.preventDefault();
 
   const response = await fetch("/api/user/login", {

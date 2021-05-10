@@ -1,4 +1,4 @@
-const signup = async (event) => {
+const signup = async function (event) {
   event.preventDefault();
 
   const user = document.querySelector("#username-input-signup");

@@ -4,7 +4,7 @@ function addPost() {
   return { body, post };
 }
 
-const commentPost = async (event) => {
+const commentPost = async function (event) {
   event.preventDefault();
 
   const { body, post } = addPost();
