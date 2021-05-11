@@ -1,5 +1,9 @@
 # Tech Blog
 
+A basic blog that lets you post, edit and delete your thoughts about anything at all!
+
+![Image of Site](https://i.imgur.com/f1e9yCD.png)
+
 # Table Of Contents
 
 - [Installation](##=installation)
@@ -16,13 +20,19 @@
 
 ## Installation
 
+No installation required!
+
 ## Usage
+
+Simply go to the following link - [TechBlog](https://www.google.com)
 
 ## Contributions
 
     Anybody can contribute! Just contact me!
 
 ## Testing
+
+No testing available at this time
 
 ## License
 
