@@ -24,7 +24,7 @@ No installation required!
 
 ## Usage
 
-Simply go to the following link - [TechBlog](https://www.google.com)
+Simply go to the following link - [TechBlog](https://tech-blog-aaron.herokuapp.com/)
 
 ## Contributions
 
