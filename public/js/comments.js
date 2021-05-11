@@ -1,6 +1,8 @@
 function addPost() {
   const post = document.querySelector('input[name="post"]').value;
+
   const body = document.querySelector('textarea[name="comment-body"]').value;
+
   return { body, post };
 }
 
@@ -16,6 +18,7 @@ const commentPost = async function (event) {
         post,
         body,
       }),
+
       headers: {
         "Content-Type": "application/json",
       },
